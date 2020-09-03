@@ -14,9 +14,9 @@ namespace APIBoletim.Interfaces
 
         Aluno Cadastrar(Aluno a);
 
-        Aluno Alterar(Aluno a);
+        Aluno Alterar(int id, Aluno a);
 
-        Aluno Excluir(Aluno a);
+        void Excluir(int id);
 
     }
 }
